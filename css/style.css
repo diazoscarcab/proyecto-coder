@@ -1,1 +1,42 @@
 
+
+nav{
+    height: 80px;
+    background-color:lightgray;
+    text-align: center;
+  
+  }
+  nav ul{
+    list-style: none;
+    display: inline-block;
+    justify-content: center;
+
+ }
+ nav ul li{
+    float: left;
+    margin-top: 20px;
+}
+nav ul li a {
+    color:blue;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+    align-items: center;
+    text-decoration: none;
+}
+
+section{
+  font-family: Arial, Helvetica, sans-serif cursive;
+  color: blueviolet;
+  text-align: left;
+  display: flex;
+  
+}
+
+h1{text-align: center;
+color:chocolate; font-family: Arial, Helvetica, sans-serif;}
+
+footer {
+  text-align: center;
+  justify-content: baseline;
+}

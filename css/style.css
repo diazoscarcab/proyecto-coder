@@ -114,3 +114,8 @@ footer ul {
     color: #080808;
     margin-top: 30px;
  }
+
+ .text-right {
+	text-align: right;
+}
+ 

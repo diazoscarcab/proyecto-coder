@@ -3,9 +3,9 @@
 }
 
 header {
-  height: 80px;
-  background-color:#080808;
-  
+	height: 80px;
+	background-color:#080808;
+	box-shadow: 0px 8px 9px 4px #dedede;
 }
 
 .nav-bar {
@@ -39,14 +39,15 @@ nav ul li a {
 
 
 section {
-	color: blueviolet;
+	
 	text-align: left;
-	display: flex;
 }
 
 h1 {
-	text-align: center;
-	color:chocolate; font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: chocolate;
+    margin: 50px 0px;
+}
 }
 
 footer {
@@ -66,4 +67,19 @@ footer {
 	align-items: center;
 	justify-content: center;
 	cursor: pointer;
+}
+
+#video-madera {
+	text-align: center;
+}
+
+.producto-destacado {
+	width: 140px;
+	height: 140px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+h2 {
+	margin: 20px 0px;
 }

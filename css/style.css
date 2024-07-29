@@ -1,42 +1,69 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
 
-
-nav{
-    height: 80px;
-    background-color:lightgray;
-    text-align: center;
+header {
+  height: 80px;
+  background-color:#080808;
   
-  }
-  nav ul{
-    list-style: none;
-    display: inline-block;
-    justify-content: center;
+}
 
- }
- nav ul li{
-    float: left;
-    margin-top: 20px;
+.nav-bar {
+	text-align: center;
+}
+nav ul {
+	list-style: none;
+	display: inline-block;
+	justify-content: center;
+	padding-left: 0px;
+	margin: 0px;
+}
+nav ul li {
+	float: left;
+	margin-top: 20px;
+}
+nav ul li a:hover {
+	background-color: #898989;
+	color: #080808;
 }
 nav ul li a {
-    color:blue;
-    font-weight: bold;
-    font-size: 20px;
-    padding: 20px;
-    align-items: center;
-    text-decoration: none;
+	color: #a7a7a7;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 24px 20px 34px;
+	align-items: center;
+	text-decoration: none;
+	transition: .2s ease;
 }
 
-section{
-  font-family: Arial, Helvetica, sans-serif cursive;
-  color: blueviolet;
-  text-align: left;
-  display: flex;
-  
+
+
+section {
+	color: blueviolet;
+	text-align: left;
+	display: flex;
 }
 
-h1{text-align: center;
-color:chocolate; font-family: Arial, Helvetica, sans-serif;}
+h1 {
+	text-align: center;
+	color:chocolate; font-family: Arial, Helvetica, sans-serif;
+}
 
 footer {
-  text-align: center;
-  justify-content: baseline;
+	text-align: center;
+	justify-content: baseline;
+}
+
+.search-icon svg{
+	color: #a7a7a7;
+}
+
+.search-icon {
+	float: right;
+	width: 50px;
+	height: 69px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
 }

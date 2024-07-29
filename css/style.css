@@ -115,6 +115,11 @@ footer ul {
     margin-top: 30px;
  }
 
+
+ .text-right {
+	text-align: right;
+}
+ 
  .product-box {
     border: 1px solid #dedede;
 	border-radius: 5px;

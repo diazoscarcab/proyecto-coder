@@ -131,3 +131,11 @@ footer ul {
     object-fit: cover;
     border-radius: 5px 5px 0px 0px;
  }
+
+ h3.h3-faq {
+	display: inline-block;
+ }
+
+ ul {
+	list-style: none;
+ }

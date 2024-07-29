@@ -9,7 +9,7 @@ body {
 header {
 	height: 80px;
 	background-color:#080808;
-	box-shadow: 0px 8px 9px 4px #dedede;
+	box-shadow: 0px 8px 18px 2px #080808;
 	position: fixed;
     width: 100%;
     top: 0px;
@@ -115,7 +115,19 @@ footer ul {
     margin-top: 30px;
  }
 
+
  .text-right {
 	text-align: right;
 }
  
+ .product-box {
+    border: 1px solid #dedede;
+	border-radius: 5px;
+	margin-top: 30px;
+ }
+ .product-box-img {
+	width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 5px 5px 0px 0px;
+ }

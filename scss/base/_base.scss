@@ -1,0 +1,33 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+	margin-top: 142px;
+
+    section {
+        text-align: left;
+    }
+    
+    h1 {
+        text-align: center;
+        color: chocolate;
+        margin: 50px 0px;
+    }
+
+    h2 {
+        margin: 20px 0px;
+    }
+    
+    .text-right {
+        text-align: right;
+    }
+
+    ul {
+        list-style: none;
+     }
+    
+     a {
+        color: inherit;
+     }
+}
